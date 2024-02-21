@@ -1,0 +1,57 @@
+[
+    {
+        "year": "Abr 2023",
+        "titulo": "Certificación IT Specialist 302 - Javascript",
+        "company": "Certiport"
+    },
+    {
+        "year": "May 2023",
+        "titulo": "Curso Máster en JavaScript: Aprender JS, jQuery, Angular, NodeJS",
+        "company": "Udemy"
+    },
+    {
+        "year": "Feb 2020",
+        "titulo": "Curso Máster en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap 4",
+        "company": "Udemy"
+    },
+    {
+        "year": "Sep-Oct 2016",
+        "titulo": "Curso Adobe Photoshop",
+        "company": "ANIMUM Creativity Advanced School"
+    },
+    {
+        "year": "Ago 2018",
+        "titulo": "Certificación Google Analytics Individual Qualification",
+        "company": "Google Academy"
+    },
+    {
+        "year": "Ago 2018",
+        "titulo": "Certificación Venta de Publicidad Digital",
+        "company": "Google Academy"
+    },
+    {
+        "year": "Ago 2018",
+        "titulo": "Certificación Publicdidad de Display",
+        "company": "Google Academy"
+    },
+    {
+        "year": "Ago 2018",
+        "titulo": "Certificación Móviles de Google Ads",
+        "company": "Google Academy"
+    },
+    {
+        "year": "Ago 2018",
+        "titulo": "Certificación Video de Google Ads",
+        "company": "Google Academy"
+    },
+    {
+        "year": "Ago 2018",
+        "titulo": "Certificación Publicidad en Búsquedas",
+        "company": "Google Academy"
+    },
+    {
+        "year": "Ago 2018",
+        "titulo": "Certificación Google Shopping",
+        "company": "Google Academy"
+    }
+    ]

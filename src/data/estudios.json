@@ -1,0 +1,40 @@
+[
+    {
+        "yearInit": "Sep 2022",
+        "yearFin": "Feb 2024",
+        "titulo": "Máster en Desarrollo Web FullStack",
+        "company": "EIP - Escuela Internacional de Postgrados",
+        "location": "Streaming",
+        "resume": "Titulación: Universidad Europea Miguel de Cervantes",
+        "tools": "1.500 horas | HTML | CSS | JavaScript | jQuery | React | Vue.js | Angular | PHP | API’s | Bases de Datos | MySQL | MongoDB | Laravel | AWS | Azure | Google Cloud"
+    },
+    
+    {
+        "yearInit": "2018",
+        "yearFin": "2019",
+        "titulo": "Máster en Marketing Digital Avanzado",
+        "company": "Windup Smart Training",
+        "location": "Málaga",
+        "resume": " ",
+        "tools": " "
+    },
+    {
+        "yearInit": "2021",
+        "yearFin": "2022",
+        "titulo": "Máster en E-Commerce",
+        "company": "Windup Smart Training",
+        "location": "Málaga",
+        "resume": " ",
+        "tools": " "
+    },
+    {
+        "yearInit": "2012",
+        "yearFin": "2017",
+        "titulo": "Grado en Marketing e Investigación de Mercados",
+        "company": "Universidad de Málaga",
+        "location": "Málaga",
+        "resume": " ",
+        "tools": " "
+    }
+    
+    ]

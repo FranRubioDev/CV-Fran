@@ -1,0 +1,54 @@
+[
+    {
+        "imgurl": "../../img/ANGULAR.svg",
+        "name": "HTML5",
+    },
+    {
+        "imgurl": "../../img/ANGULAR.svg",
+        "name": "CSS3",
+    },
+    {
+        "imgurl": "../../img/ANGULAR.svg",
+        "name": "JavaScript",
+    },
+    {
+        "imgurl": "../../img/ANGULAR.svg",
+        "name": "TypeScript",
+    },
+    {
+        "imgurl": "../../img/ANGULAR.svg",
+        "name": "MySQL",
+    },
+    {
+        "imgurl": "Abr 2023",
+        "name": "MongoDB",
+    },
+    {
+        "imgurl": "Abr 2023",
+        "name": "PHP",
+    },
+    {
+        "imgurl": "Abr 2023",
+        "name": "Laravel",
+    },
+    {
+        "imgurl": "Abr 2023",
+        "name": "Azure",
+    },
+    {
+        "imgurl": "Abr 2023",
+        "name": "Amazon Web Service",
+    },
+    {
+        "imgurl": "Abr 2023",
+        "name": "Google Cloud",
+    },
+    {
+        "imgurl": "Abr 2023",
+        "name": "Wordpress",
+    },
+    {
+        "imgurl": "Abr 2023",
+        "name": "Prestashop",
+    },
+]

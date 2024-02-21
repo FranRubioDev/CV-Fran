@@ -1,0 +1,154 @@
+---
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title } = Astro.props;
+const { description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<meta name="description" content={description}/>
+		<script src="../../src/assets/linterna.js"></script>
+
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		color: #9ca7be;
+		background: #111F44;
+		background-size: 224px;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+
+
+main{
+display: flex;
+flex-wrap: wrap;
+max-width: 1180px;
+margin: 100px auto;
+}
+
+header {
+    display: flex;
+    width: 40%;
+	height: 10vh;
+}
+
+section {
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+    width: 60%;
+}
+
+CardExp {
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.espaciador {
+	height: 80px;
+
+}
+
+.tecnologias {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+
+.tecnologias .cuadrado {
+	max-height: 80px;
+	max-width: 80px;
+	margin: 20px;
+	justify-items: center;
+}
+
+.tecnologias .largo {
+	max-height: 50px;
+	max-width: 150px;
+	margin: 20px;
+	justify-items: center;
+}
+
+.tecnologias img {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(3px 3px 5px #32323292);
+}
+
+.tecnologias h2 {
+	width: 100%;
+}
+
+.brillo {
+	filter: drop-shadow(3px 3px 5px #32323292);
+}
+
+.tback {
+font-size: 60px;
+letter-spacing: -2px;
+font-weight: 800;
+z-index: 0;
+opacity: 0.07;
+margin-bottom: -3.5rem;
+text-shadow:  5px 5px 5px #000000;
+}
+
+/* Flashlight Overlay */
+:root {
+    --cursorX: 527px;
+    --cursorY: 400px;
+  }
+  :root:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+    background: radial-gradient(
+      circle 20vmax at var(--cursorX) var(--cursorY),
+      rgba(0,0,0,0) 0%,
+      #0f172a25 50%,
+      #0f172a89 100%
+    )
+  }
+</style>
+

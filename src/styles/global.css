@@ -1,0 +1,335 @@
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		color: #9ca7be;
+		background: #111F44;
+		background-size: 224px;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+
+
+main{
+display: flex;
+flex-wrap: wrap;
+max-width: 1180px;
+margin: 100px auto;
+}
+
+header {
+    display: flex;
+    width: 40%;
+	height: 10vh;
+}
+
+section {
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+    width: 60%;
+}
+
+CardExp {
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.espaciador {
+	height: 80px;
+
+}
+
+.tecnologias {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+
+.tecnologias .cuadrado {
+	max-height: 80px;
+	max-width: 80px;
+	margin: 20px;
+	justify-items: center;
+}
+
+.tecnologias .largo {
+	max-height: 50px;
+	max-width: 150px;
+	margin: 20px;
+	justify-items: center;
+}
+
+.tecnologias img {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(3px 3px 5px #32323292);
+}
+
+.tecnologias h2 {
+	width: 100%;
+}
+
+.brillo {
+	filter: drop-shadow(3px 3px 5px #32323292);
+}
+
+.tback {
+font-size: 60px;
+letter-spacing: -2px;
+font-weight: 800;
+z-index: 0;
+opacity: 0.07;
+margin-bottom: -3.5rem;
+text-shadow:  5px 5px 5px #000000;
+}
+
+/* Flashlight Overlay */
+:root {
+    --cursorX: 527px;
+    --cursorY: 400px;
+  }
+  :root:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+    background: radial-gradient(
+      circle 20vmax at var(--cursorX) var(--cursorY),
+      rgba(0,0,0,0) 0%,
+      #0f172a25 50%,
+      #0f172a89 100%
+    )
+  }
+
+
+  
+<style>
+
+
+
+.tarjeta-container {
+	display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 576px;
+  height: 330px;
+/*  padding: 5px; */
+  margin: 15px 0px 15px 0px;
+  border-radius: 7px;
+  box-sizing: border-box;
+  color:#94a3b8;
+}
+
+.tarjeta-container:hover{
+    background-color: #1e293b80;
+    --tw-shadow: inset 0 1px 0 0 rgba(148,163,184,.1);
+    --tw-shadow-colored: inset 0 1px 0 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+.colum1-exp {
+  display: flex;
+  width: 25%;
+  margin: 5px;
+  box-sizing: border-box;
+
+}
+
+.colum2-exp {
+  display: flex;
+  width: 70%;
+  margin: 5px;
+	flex-direction: column;
+
+}
+
+.colum2-exp h3 {
+font-size: 16px;
+color: white;
+
+}
+
+
+
+
+
+
+
+	.link-card {
+		list-style: none;
+		display: flex;
+		padding: 1px;
+		background-color: #23262d;
+		background-image: none;
+		background-size: 400%;
+		border-radius: 7px;
+		background-position: 100%;
+		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+	}
+	.link-card > a {
+		width: 100%;
+		text-decoration: none;
+		line-height: 1.4;
+		padding: calc(1.5rem - 1px);
+		border-radius: 8px;
+		color: white;
+		background-color: #23262d;
+		opacity: 0.8;
+	}
+	h2 {
+		margin: 0;
+		font-size: 1.25rem;
+		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+	}
+	p {
+		margin-top: 0.5rem;
+		margin-bottom: 0;
+	}
+	.link-card:is(:hover, :focus-within) {
+		background-position: 0;
+		background-image: var(--accent-gradient);
+	}
+	.link-card:is(:hover, :focus-within) h2 {
+		color: rgb(var(--accent-light));
+	}
+
+
+
+
+
+
+:root {
+	--bg: #111f44;
+	--border: hsl(280 10% 50% / 1);
+	--color: hsl(240 18% 80%);
+	--border-width: 2px;
+	--border-radius: 12px;
+	--gradient: conic-gradient(from 180deg at 50% 70%,hsla(0,0%,98%,1) 0deg,#eec32d 72.0000010728836deg,#ec4b4b 144.0000021457672deg,#709ab9 216.00000858306885deg,#4dffbf 288.0000042915344deg,hsla(0,0%,98%,1) 1turn);
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+@property --start {
+	syntax: '<number>';
+	inherits: true;
+	initial-value: 0;
+}
+
+
+
+
+article {
+	--active: 0.15;
+	--start: 0;
+	height: 100%;
+	background: var(--card);
+	border-radius: var(--border-radius);
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding: 25px;
+}
+
+article:is(:hover, :focus-visible) {
+  z-index: 2;
+}
+
+.glows {
+	pointer-events: none;
+	position: absolute;
+	inset: 0;
+	filter: blur(calc(var(--blur) * 1px));
+}
+
+.glows::after,
+.glows::before {
+  --alpha: 0;
+  content: "";
+  background: var(--gradient);
+  background-attachment: fixed;
+  position: absolute;
+	inset: -5px;
+  border: 10px solid transparent;
+  border-radius: var(--border-radius);
+  mask:
+  	linear-gradient(#0000, #0000),
+  	conic-gradient(from calc((var(--start) - (var(--spread) * 0.5)) * 1deg), #000 0deg, #fff, #0000 calc(var(--spread) * 1deg));
+  mask-composite: intersect;
+  mask-clip: padding-box, border-box;
+  opacity: var(--active);
+  transition: opacity 1s;
+}
+
+article::before {
+	position: absolute;
+	inset: 0;
+	border: var(--border-width) solid transparent;
+	content: "";
+	border-radius: var(--border-radius);
+	pointer-events: none;
+	background: var(--border);
+  background-attachment: fixed;
+  border-radius: var(--border-radius);
+  mask:
+  	linear-gradient(#0000, #0000),
+  	conic-gradient(
+  		from calc(((var(--start) + (var(--spread) * 0.25)) - (var(--spread) * 1.5)) * 1deg),
+  		hsl(0 0% 100% / 0.15) 0deg,
+  		white,
+  		hsl(0 0% 100% / 0.15) calc(var(--spread) * 2.5deg));
+  mask-clip: padding-box, border-box;
+  mask-composite: intersect;
+  opacity: var(--active);
+  transition: opacity 1s;
+}
+
+article::after {
+	--bg-size: 100%;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  background: var(--gradient);
+  background-attachment: fixed;
+  border-radius: var(--border-radius);
+  opacity: var(--active, 0);
+  transition: opacity 1s;
+  --alpha: 0;
+  inset: 0;
+  border: var(--border-width) solid transparent;
+  mask:
+  	linear-gradient(#0000, #0000),
+  	conic-gradient(from calc(((var(--start) + (var(--spread) * 0.25)) - (var(--spread) * 0.5)) * 1deg), #0000 0deg, #fff, #0000 calc(var(--spread) * 0.5deg));
+  filter: brightness(1.5);
+  mask-clip: padding-box, border-box;
+  mask-composite: intersect;
+}
+
+
+</style>

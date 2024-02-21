@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NavBar from '../../components/NavBar.astro';
+import CardExp from '../../components/CardExp.astro';
+import experiencia from '../../data/experiencia.json';
+import CSS from '../../styles/global.css'
+
+---
+
+<Layout title="Experiencia de Fran Rubio - FullStack Developer" description='Profesionalmente Fran Rubio - FullStack Developer ha trabajado en las siguientes empresas' >
+	<main>
+	<header>
+		<NavBar></NavBar>
+	</header>
+	<section>
+	<div class="descripcionprincipal"> <h1>POLIVALENTE | RESOLUTIVO | TRABAJO EN EQUIPO</h1><p>
+		Podría decirse que soy nativo digital. Comencé a diseñar webs con Microsoft FrontPage
+		con 13 años, a los 20 (2013) ya posicionaba en el primer resultado de búsqueda orgánico
+		de Google, y actualmente con 29 continuo estudiando y trabajando en mi hobbie.
+		La mayor parte de mis conocimientos en esta área los he adquirido de forma
+		autodidacta.
+		Aunque tengo conocimientos en varías las áreas, en los últimos años me he estado
+		especializado en el desarrollo web y sus integraciones con SEO y Analítica.
+		Suelo trabajar con CMS, pero poco a poco me voy perfilando hacia un desarrollo web a
+		medida tanto en la parte Front-End como Back-End gracias a máster de Desarrollo Web
+		FullStack y a otros cursos que realizo en paralelo para afianzar lo aprendido.
+		Por último, si hay algo que no sé, me esfuerzo por comprenderlo y aprenderlo.</p></div>
+	
+		{experiencia.map(experiencia => <CardExp data={experiencia}></CardExp>)}
+	</section>
+</main>
+</Layout>

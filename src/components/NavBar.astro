@@ -1,0 +1,81 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+---
+
+<nav class="hero-nav">
+
+	<img src="../src/img/Fran-Rubio-rec.png" alt="Fran-Rubio-CV">
+	<h1><a class="brillo" href="/">Fran Rubio</a></h1>
+	<p class="brillo">FullStack Developer</p>
+	<p class="infonav">Este curriculum ha sido creado con las tecnologías web que me gusta usar.</p>
+	<div class="menu brillo">
+	<li><a class="tback brillo" href="/sobre-mi/">SOBRE MI</a></li>
+	<li><a class="tback" href="/experiencia/">EXPERIENCIA</a></li>
+	<li><a class="tback" href="/educacion/">EDUCACIÓN</a></li>
+	<li><a class="tback" href="/proyectos/">PROYECTOS</a></li>
+</div>
+</nav>
+<ViewTransitions />
+<style>
+nav h1 a, nav a {
+	font-weight: 700;
+	font-size: 48px;
+	color: #ffffff;
+	width: 100%;
+}
+li {list-style: none;}
+
+
+a.tback {
+	transition-duration: 300ms;
+font-size: 60px;
+letter-spacing: -2px;
+font-weight: 800;
+z-index: 0;
+opacity: 0.07;
+margin-bottom: -3.5rem;
+text-shadow:  5px 5px 5px #000000;
+}
+
+a.tback:focus, a.tback:hover, a.tback:active  {
+transition-duration: 400ms;
+font-size: 60px;
+color: white!important;
+letter-spacing: -2px;
+opacity: 1;
+margin-left: 30px;
+text-shadow:  5px 5px 5px #0000001a;
+}
+
+
+nav img {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(3px 3px 5px #323232);
+}
+
+nav p {
+	font-weight: 500;
+	font-size: 20px;
+	width: 100%;
+
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav img{
+	max-width: 250px;
+
+}
+
+nav p.infonav  {
+	font-weight: 400;
+	font-size: 16px;
+	color: #94a3b8;
+	padding: 15px 80px 80px 0px;
+}
+
+
+</style>

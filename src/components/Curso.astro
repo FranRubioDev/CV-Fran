@@ -1,0 +1,113 @@
+---
+const { datacur } = Astro.props;
+---
+
+
+<div class="tarjeta-container">
+<div class="colum1-exp">
+	<p>{datacur.year}</p>
+</div>
+<div class="colum2-exp">
+	<h3>{datacur.titulo}</h3>
+
+	<p>{datacur.company}</p>
+
+</div>
+</div>
+
+
+<style>
+
+
+
+.tarjeta-container {
+	display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 576px;
+  min-height: 100px;
+  padding: 5px;
+  margin: 15px 0px 15px 0px;
+  border-radius: 7px;
+  box-sizing: border-box;
+  color:#94a3b8;
+}
+
+.tarjeta-container:hover{
+    background-color: rgba(30,41,59,.5);
+    --tw-shadow: inset 0 1px 0 0 rgba(148,163,184,.1);
+    --tw-shadow-colored: inset 0 1px 0 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+.colum1-exp {
+  display: flex;
+  width: 25%;
+  margin: 5px;
+  box-sizing: border-box;
+
+}
+
+.colum2-exp {
+  display: flex;
+  width: 70%;
+  margin: 5px;
+	flex-direction: column;
+
+}
+
+.colum2-exp h3 {
+font-size: 16px;
+color: white;
+
+}
+
+
+
+
+
+
+
+	.link-card {
+		list-style: none;
+		display: flex;
+		padding: 1px;
+		background-color: #23262d;
+		background-image: none;
+		background-size: 400%;
+		border-radius: 7px;
+		background-position: 100%;
+		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+	}
+	.link-card > a {
+		width: 100%;
+		text-decoration: none;
+		line-height: 1.4;
+		padding: calc(1.5rem - 1px);
+		border-radius: 8px;
+		color: white;
+		background-color: #23262d;
+		opacity: 0.8;
+	}
+	h2 {
+		margin: 0;
+		font-size: 1.25rem;
+		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+	}
+	p {
+		margin-top: 0.5rem;
+		margin-bottom: 0;
+	}
+	.link-card:is(:hover, :focus-within) {
+		background-position: 0;
+		background-image: var(--accent-gradient);
+	}
+	.link-card:is(:hover, :focus-within) h2 {
+		color: rgb(var(--accent-light));
+	}
+
+
+
+	
+</style>

@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NavBar from '../components/NavBar.astro';
+const { title, description } = Astro.props;
+
+import experiencia from '../data/experiencia.json';
+---
+
+<Layout title="Fran Rubio Web Profesional" description='Esta es una descripcion' >
+	<main>
+		<header>
+			<NavBar></NavBar>
+		</header>
+		<section>
+			<div class="descripcionprincipal"> <h1 class="brillo">POLIVALENTE | RESOLUTIVO | TRABAJO EN EQUIPO</h1>
+				<p>
+				Comencé a diseñar webs con Microsoft FrontPage con 13 años, a los 20 (2013) ya posicionaba en el primer resultado de búsqueda orgánico
+				de Google, y actualmente con 30 continuo estudiando y trabajando en mi hobbie.
+				La mayor parte de mis conocimientos en esta área los he adquirido de forma
+				autodidacta.</p>
+			</div>
+			
+	
+				<div class="espaciador"></div>
+	
+				<div class="tecnologias">
+					<h2 class="tback">LENGUAJES FRONT-END</h2>
+					<img class="cuadrado" src="../src/img/HTML5.svg" alt="type">
+					<img class="cuadrado" src="../src/img/CSS.3.svg" alt="type">
+					<img class="cuadrado" src="../src/img/JS.svg" alt="type">
+					<img class="cuadrado" src="../src/img/TS.svg" alt="type">
+					<h2 class="tback">FRAMEWORKS</h2>
+					<img class="cuadrado" src="../src/img/REACT.svg" alt="type">
+					<img class="cuadrado" src="../src/img/ANGULAR.svg" alt="type">
+					<img class="cuadrado" src="../src/img/ASTRO2.svg" alt="type">
+					<h2 class="tback"> LENGUAJES BACK-END</h2>
+					<img class="largo" src="../src/img/PHP.svg" alt="type">
+					<img class="largo" src="../src/img/LARAVEL.svg" alt="type">
+					<h2 class="tback">BASES DE DATOS</h2>
+					<img class="cuadrado" src="../src/img/MYSQL.svg" alt="type">
+					<img class="largo" src="../src/img/mongodb2.png" alt="type">
+					<h2 class="tback">SERVIDORES</h2>
+					<img class="largo" src="../src/img/GCLOUD.svg" alt="type">
+					<img class="largo" src="../src/img/amazon2.svg" alt="type">
+					<img class="largo" src="../src/img/AZURE.svg" alt="type">
+		
+				</div>
+	
+	
+			</section>
+	</main>
+</Layout>

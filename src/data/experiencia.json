@@ -1,0 +1,40 @@
+[
+{
+    "yearInit": "Feb 2020",
+    "yearFin": "Presente",
+    "puesto": "Front-End Developer",
+    "company": "Windup Smart Business",
+    "location": "Málaga",
+    "resume": "Además de desarrollar labores de Front con los principales CMS, ejerzo como TeamLeader y TechLead del equipo de desarrollo",
+    "tools": "Wordpress | Prestashop | HTML | CSS | JS | Elementor Pro | Teamleader | IT | SEO |"
+},
+
+{
+    "yearInit": "Feb 2019",
+    "yearFin": "Feb 2021",
+    "puesto": "Especialista en Marketing Digital",
+    "company": "Marketing Live Consulting",
+    "location": "Málaga",
+    "resume": "Realicé diferentes colaboraciones puntuales con esta agencia de Marketing Digital",
+    "tools": "Wordpress | SEO | Google Analytics | Tag Manager | Data Studio."
+},
+{
+    "yearInit": "Jul 2019",
+    "yearFin": "Dic 2019",
+    "puesto": "Técnico de Marketing Digital",
+    "company": "EFEMálaga Alemania SL e ISBA Campus Málaga",
+    "location": "Málaga",
+    "resume": " ",
+    "tools": "Wordpress | SEO | Google Analytics | Tag Manager | Data Studio."
+},
+{
+    "yearInit": "Jul 2019",
+    "yearFin": "Dic 2019",
+    "puesto": "Técnico de Marketing Digital",
+    "company": "Brains Pro",
+    "location": "Málaga",
+    "resume": " ",
+    "tools": "Wordpress | SEO | Google Analytics | Tag Manager | Data Studio."
+}
+
+]
